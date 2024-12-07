@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    webkit-transition: background-color 100ms linear;
+    -ms-transition: background-color 100ms linear;
+    transition: background-color 100ms linear;
+    webkit-transition: color 100ms linear;
+    -ms-transition: color 100ms linear;
+    transition: color 100ms linear;
+}
